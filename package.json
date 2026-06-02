@@ -1,0 +1,15 @@
+{
+  "name": "@cinatra-ai/skill-creator-skills",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Cinatra skill-authoring meta-skills — the prefill-generation prompt that writes a one-line example invocation for a skill from its SKILL.md. Registered into the skills catalog at workspace level.",
+  "type": "module",
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "dependencies": [],
+    "capabilities": {
+      "skill.prefill-generation": "skill-prefill-generation"
+    }
+  }
+}
