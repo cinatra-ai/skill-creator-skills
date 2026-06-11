@@ -4,6 +4,9 @@
   "license": "Apache-2.0",
   "description": "Cinatra skill-authoring meta-skills — the prefill-generation prompt that writes a one-line example invocation for a skill from its SKILL.md. Registered into the skills catalog at workspace level.",
   "type": "module",
+  "files": [
+    "skills"
+  ],
   "cinatra": {
     "apiVersion": "cinatra.ai/v1",
     "kind": "skill",
