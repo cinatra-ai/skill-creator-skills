@@ -1,6 +1,12 @@
-# Cinatra Skill Creator Skills
+# Skill Creator Skills
 
-Meta-skills used when authoring new Cinatra skills. The bundle generates the short example prompt that appears beside a skill in the catalog — the one-tap "try saying…" hint that shows users immediately what kind of question or command activates the skill. Install it on any workspace where new skills are authored and surfaced through a catalog UI.
+Meta-skills for authoring new Cinatra skills. When a skill is added to the catalog, this bundle generates the short example prompt shown beside it in the UI — the one-tap "try saying…" hint that lets users immediately understand what kind of question or command activates it. Install it on any workspace where new skills are authored or re-indexed.
+
+To use, install this extension at the workspace level via the Cinatra marketplace. No credentials or external accounts are required — the bundle operates entirely within the Cinatra skill runtime. The prefill-generation skill reads a SKILL.md document and outputs a single plain-text example prompt of at most 20 words with no quotes or markdown formatting. That output is the hint displayed beside the skill in the catalog.
+
+## Works with
+
+- Cinatra workspace skill catalog
 
 ## Capabilities
 
