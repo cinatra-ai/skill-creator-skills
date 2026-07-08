@@ -10,6 +10,7 @@
   "cinatra": {
     "apiVersion": "cinatra.ai/v1",
     "kind": "skill",
+    "displayName": "Skill Creator Skills",
     "dependencies": [],
     "capabilities": {
       "skill.prefill-generation": "skill-prefill-generation"
