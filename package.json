@@ -1,8 +1,8 @@
 {
-  "name": "@cinatra-ai/skill-creator-skills",
-  "version": "0.1.1",
+  "name": "@cinatra-ai/skill-prefill-generation-skill",
+  "version": "0.2.0",
   "license": "Apache-2.0",
-  "description": "Cinatra skill-authoring meta-skills — the prefill-generation prompt that writes a one-line example invocation for a skill from its SKILL.md. Registered into the skills catalog at workspace level.",
+  "description": "Internal prompt that writes the one-line example invocation (“try saying…”) shown beside a skill in the Cinatra catalog, given that skill's SKILL.md. Consumed by the prefill pipeline as prompt context, never injected into a run and never uploaded.",
   "type": "module",
   "files": [
     "skills"
@@ -10,7 +10,8 @@
   "cinatra": {
     "apiVersion": "cinatra.ai/v1",
     "kind": "skill",
-    "displayName": "Skill Creator Skills",
+    "displayName": "Skill Prefill Generation Skill",
+    "skillRole": "internal",
     "dependencies": [],
     "capabilities": {
       "skill.prefill-generation": "skill-prefill-generation"
